@@ -1,35 +1,52 @@
-{
-  "Post": {
-    "cover": {
-      "regexp": "https://picsum\\.photos/seed/[0-9]{5}/1920/270"
-    },
-    "title": {
-      "loremWords": {
-        "minLength": 5,
-        "maxLength": 20
+[
+      {
+          "label": "table1",
+          "boost": 97,
+          "type": "table"
+      },
+      {
+          "label": "table2",
+          "boost": 97,
+          "type": "table"
+      },
+      {
+          "label": "table3",
+          "boost": 97,
+          "type": "table"
+      },
+      {
+          "label": "table4",
+          "boost": 97,
+          "type": "table"
+      },
+      {
+          "label": "col2_0",
+          "boost": 98,
+          "type": "column"
+      },
+      {
+          "label": "col2_1",
+          "boost": 98,
+          "type": "column"
+      },
+      {
+          "label": "col2_2",
+          "boost": 98,
+          "type": "column"
+      },
+      {
+          "label": "col2_3",
+          "boost": 98,
+          "type": "column"
+      },
+      {
+          "label": "col2_4",
+          "boost": 98,
+          "type": "column"
+      },
+      {
+          "label": "col2_5",
+          "boost": 98,
+          "type": "column"
       }
-    },
-    "body": {
-      "loremParagraphs": {
-        "minLength": 10,
-        "maxLength": 100
-      }
-    },
-    "tag": {
-      "string": [
-        "one",
-        "two",
-        "three"
-      ]
-    },
-    "isDraft": {
-      "boolean": {}
-    },
-    "createdAt": {
-      "dateTime": {
-        "min": "2010-01-01T00:00:00Z",
-        "max": "2020-12-31T23:59:59Z"
-      }
-    }
-  }
-}
+  ]
